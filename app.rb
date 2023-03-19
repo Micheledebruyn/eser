@@ -9,5 +9,5 @@ configure :development do
 end
 
 get "/" do
-  "Hello world! Homepage here"
+    erb :index
 end
